@@ -29,9 +29,9 @@ print(menu)
 # (Don't worry - the shopkeeper checks every order himself)
 
 def get_purchase_info(): # Convert input when necessary
-    item = int(input((Item name: )))
-    price = float(input((Item price: )))
-    quantity = int(input((Item quantity: )))
+    item = int(input(("Item name: ")))
+    price = float(input(("Item price: ")))
+    quantity = int(input(("Item quantity: ")))
     return item, price, quantity
 
 # Only get input if NOT testing
